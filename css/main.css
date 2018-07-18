@@ -5,14 +5,81 @@
 /****************
       General
 *****************/
+#container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+body{
+  margin: 0;
+  border-top: 17px solid #090909;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
 
 /****************
       Helpers
 *****************/
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
 /****************
       Header
 *****************/
+#header{
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.logo{
+  float: left;
+}
+
+.correo{
+  color: #999898;
+  font-size: 13px;
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+
+.menu{
+  float: right;
+  list-style: none;
+  margin: 46px 0 0;
+  padding: 0;
+}
+
+.menu li{
+  display: inline;
+  /* margin-left: 65px; */
+}
+
+/* .menu li:first-child{
+  margin-left: 0;
+} */
+
+.menu li + li{
+  margin-left: 65px;
+}
+
+.menu a{
+  color: #fe9b00;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu a:hover,
+.link-active{
+  color: black !important;
+}
 
 /****************
       Slider
