@@ -29,13 +29,18 @@ a{
   clear: both;
 }
 
+.bb-line{
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
 /****************
       Header
 *****************/
 #header{
   position: relative;
-  padding: 20px 0;
-  border-bottom: 1px solid #c0c0c0;
+  margin-top: 20px;
 }
 
 .logo{
@@ -88,6 +93,15 @@ a{
 /****************
       Content
 *****************/
+.box{
+  width: 285px;
+  float: left;
+  margin-left: 52px;
+}
+
+.box:first-child{
+  margin-left: 0;
+}
 
 /****************
       Portfolio
