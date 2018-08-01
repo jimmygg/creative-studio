@@ -16,6 +16,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+  font-size: 12px;
+  color: #5d5d5d;
+  line-height: 20px;
+}
+
 a{
   text-decoration: none;
 }
@@ -33,6 +39,45 @@ a{
   border-bottom: 1px solid #c0c0c0;
   margin-bottom: 20px;
   padding-bottom: 20px;
+}
+
+.titles-arrows{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 6px solid #090909;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  /* Manera 1 */
+  /* background-image: url("../img/layout/arrow.png");
+  background-repeat: no-repeat;
+  background-position: left center; */
+
+  /* Manera 2 */
+  position: relative;
+}
+.titles-arrows:before{
+  content: url('../img/layout/arrow.png');
+  position: absolute;
+  left: 4px;
+}
+
+.subTitle{
+  position: relative;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-left: 25px;
+  font-weight: bold;
+}
+.subTitle:before{
+  content: url('../img/layout/arrow-small.png');
+  position: absolute;
+  left: 4px;
+}
+
+.color-orange{
+  color: #fe9b00;
 }
 
 /****************
@@ -103,6 +148,36 @@ a{
   margin-left: 0;
 }
 
+#list-benifits{
+  padding: 0;
+  padding-left: 30px;
+}
+
+#list-benifits li{
+  list-style: none;
+  position: relative;
+}
+#list-benifits li p{
+  margin: 0;
+  line-height: normal;
+}
+
+#list-benifits li + li{
+  margin-top: 20px;
+}
+
+#list-benifits li:before{
+  position: absolute;
+  content: url('../img/layout/check.png');
+  top: 0;
+  left: -30px;
+}
+
+#rafi-link{
+  margin-top: 30px;
+  color: #090909;
+  font-size: 12px;
+}
 /****************
       Portfolio
 *****************/
