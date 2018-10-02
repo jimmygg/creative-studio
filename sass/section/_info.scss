@@ -1,0 +1,15 @@
+/****************
+      Info
+*****************/
+.info-box-left{
+  width: 660px;
+  float: left;
+}
+
+.info-box-right{
+  width: 225px;
+  float: right;
+}
+.info-box-right a + a{
+  margin-left: 14px;
+}

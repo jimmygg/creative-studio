@@ -1,0 +1,12 @@
+
+/****************
+      Portfolio
+*****************/
+.portfolio-img{
+  display: block;
+  float: left;
+}
+
+.portfolio-img + .portfolio-img{
+  margin-left: 34px;
+}
