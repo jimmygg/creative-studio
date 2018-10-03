@@ -1,0 +1,17 @@
+@media (max-width: $breakpoint-lg){
+	.menu li + li {
+    	margin-left: 40px;
+	}
+
+	// 
+	// Portfolio
+	// 
+	.portfolio-img {
+		width:21%; //4
+		padding: 2%;
+	}
+
+	.portfolio-img + .portfolio-img {
+		margin-left: 0;
+	}
+}

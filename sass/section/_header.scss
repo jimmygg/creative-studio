@@ -21,11 +21,16 @@
   right: 0;
 }
 
-.menu{
+#wrap-menu{
   float: right;
   list-style: none;
-  margin: 46px 0 0;
+  margin: 55px 0 0;
   padding: 0;
+}
+
+.menu{
+  padding: 0;
+  margin: 0;
 }
 
 .menu li{
@@ -42,7 +47,7 @@
 }
 
 .menu a{
-  color: #fe9b00;
+  color: $orange;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -50,4 +55,10 @@
 .menu a:hover,
 .link-active{
   color: black !important;
+}
+
+// Icon menu
+.icon-menu{
+  color: $orange;
+  display: none;
 }

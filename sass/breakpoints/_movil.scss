@@ -1,5 +1,8 @@
-@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm){
-	body{
-		background-color: yellow;
+@media (max-width: $breakpoint-sm){
+	//
+	// Portfolio
+	// 
+	.portfolio-img {
+		width:96%; // 2
 	}
 }

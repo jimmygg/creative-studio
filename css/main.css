@@ -390,11 +390,15 @@ a {
   top: 18px;
   right: 0; }
 
-.menu {
+#wrap-menu {
   float: right;
   list-style: none;
-  margin: 46px 0 0;
+  margin: 55px 0 0;
   padding: 0; }
+
+.menu {
+  padding: 0;
+  margin: 0; }
 
 .menu li {
   display: inline;
@@ -415,6 +419,10 @@ a {
 .menu a:hover,
 .link-active {
   color: black !important; }
+
+.icon-menu {
+  color: #fe9b00;
+  display: none; }
 
 /****************
       Info
@@ -523,11 +531,37 @@ a {
   width: 120px;
   bottom: -15px; }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  body {
-    background-color: red; } }
-@media (min-width: 0px) and (max-width: 576px) {
-  body {
-    background-color: yellow; } }
+@media (max-width: 992px) {
+  .menu li + li {
+    margin-left: 40px; }
+
+  .portfolio-img {
+    width: 21%;
+    padding: 2%; }
+
+  .portfolio-img + .portfolio-img {
+    margin-left: 0; } }
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px; }
+
+  .menu {
+    display: none; }
+
+  .icon-menu {
+    display: inline; }
+
+  .box {
+    width: auto;
+    float: none;
+    margin-left: 0; }
+    .box + .box {
+      margin-top: 30px; }
+
+  .portfolio-img {
+    width: 46%; } }
+@media (max-width: 576px) {
+  .portfolio-img {
+    width: 96%; } }
 
 /*# sourceMappingURL=main.css.map */

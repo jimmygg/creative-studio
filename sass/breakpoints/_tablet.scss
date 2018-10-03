@@ -1,5 +1,43 @@
-@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md){
-	body{
-		background-color: red;
+@media (max-width: $breakpoint-md){
+	//
+	// Container
+	//
+	.container{
+		padding: 0 15px;
+	}
+
+	// 
+	// Header
+	// 
+	.menu{
+		display: none;
+	}
+	.icon-menu{
+		display: inline;
+	}
+
+	// 
+	// Content
+	// 
+	.box{
+		width: auto;
+		float: none;
+		margin-left: 0;
+		+ .box{
+			margin-top: 30px;
+		}
+	}
+
+	// 
+	// Portfolio
+	// 
+	.portfolio-img {
+		width:46%; // 2
 	}
 }
+
+
+
+
+
+
