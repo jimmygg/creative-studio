@@ -45,6 +45,29 @@
 	.info-box-right{
 		display: none;
 	}
+
+	//
+	//  Footer
+	//
+	#footer{
+		padding: 15px 0;
+		p{
+			text-align: center;
+		}
+	}
+
+	.footer-menu{
+		display: none;
+	}
+
+	.footer-logo {
+		width: 120px;
+    position: relative;
+    right: auto;
+		bottom: auto;
+		display: block;
+		margin: 20px auto 0;
+	}
 }
 
 

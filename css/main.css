@@ -566,7 +566,23 @@ a {
     float: none; }
 
   .info-box-right {
-    display: none; } }
+    display: none; }
+
+  #footer {
+    padding: 15px 0; }
+    #footer p {
+      text-align: center; }
+
+  .footer-menu {
+    display: none; }
+
+  .footer-logo {
+    width: 120px;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    display: block;
+    margin: 20px auto 0; } }
 @media (max-width: 576px) {
   .portfolio-img {
     width: 96%; } }
