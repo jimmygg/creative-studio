@@ -446,9 +446,9 @@ a {
       Content
 *****************/
 .box {
-  width: 285px;
+  width: 29%;
   float: left;
-  margin-left: 52px; }
+  margin-left: 5.4%; }
 
 .box:first-child {
   margin-left: 0; }
@@ -522,5 +522,12 @@ a {
   right: 0;
   width: 120px;
   bottom: -15px; }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  body {
+    background-color: red; } }
+@media (min-width: 0px) and (max-width: 576px) {
+  body {
+    background-color: yellow; } }
 
 /*# sourceMappingURL=main.css.map */
