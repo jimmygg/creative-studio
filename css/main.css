@@ -355,7 +355,7 @@ template {
       General
 *****************/
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 body {
@@ -379,6 +379,8 @@ a {
   margin-top: 20px; }
 
 .logo {
+  max-width: 100%;
+  height: auto;
   float: left; }
 
 .correo {
@@ -432,6 +434,8 @@ a {
       Portfolio
 *****************/
 .portfolio-img {
+  max-width: 100%;
+  height: auto;
   display: block;
   float: left; }
 
@@ -475,6 +479,10 @@ a {
   color: #090909;
   font-size: 12px; }
 
+#slider img {
+  max-width: 100%;
+  height: auto; }
+
 /****************
       Footer
 *****************/
@@ -508,6 +516,8 @@ a {
   color: #5d5d5d; }
 
 .footer-logo {
+  max-width: 100%;
+  height: auto;
   position: absolute;
   right: 0;
   width: 120px;
