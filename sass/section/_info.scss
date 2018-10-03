@@ -2,12 +2,14 @@
       Info
 *****************/
 .info-box-left{
-  width: 660px;
+  // 660 / 960 x 100 = 
+  width: 68%;
   float: left;
 }
 
 .info-box-right{
-  width: 225px;
+  // 225 / 960 x 100 = 
+  width: 23%;
   float: right;
 }
 .info-box-right a + a{
