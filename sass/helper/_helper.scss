@@ -20,7 +20,7 @@
 }
 
 .titles-arrows{
-  font-size: 18px;
+  font-size: font-size(18px, $fontSize, em);
   text-transform: uppercase;
   margin: 0;
   padding-left: 30px;
