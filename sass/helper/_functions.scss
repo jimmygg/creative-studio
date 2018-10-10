@@ -1,0 +1,4 @@
+@function font-size($size,$fzparent, $type) {
+  @return ($size/$fzparent) + $type;
+}
+

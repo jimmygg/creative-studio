@@ -1,4 +1,11 @@
 @media (max-width: $breakpoint-lg){
+	// 
+	// General
+	// 
+	html{
+		font-size: $fontSize + 4 !important;
+	}
+
 	.menu li + li {
     	margin-left: 40px;
 	}

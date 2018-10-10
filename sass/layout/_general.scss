@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+html{
+  font-size: $fontSize;
+}
+
 body{
   margin: 0;
   border-top: 17px solid #090909;
@@ -13,7 +17,7 @@ body{
 }
 
 p{
-  font-size: 12px;
+  font-size: font-size(12px, $fontSize, rem);
   color: #5d5d5d;
   line-height: 20px;
 }

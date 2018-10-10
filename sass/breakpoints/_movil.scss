@@ -1,5 +1,12 @@
 @media (max-width: $breakpoint-sm){
 	//
+	// General
+	// 
+	html{
+		font-size: $fontSize + 6 !important;
+	}
+
+	//
 	// Portfolio
 	// 
 	.portfolio-img {
